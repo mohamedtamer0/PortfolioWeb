@@ -56,11 +56,11 @@ window.addEventListener("scroll", () => {
 
 // Typeit
 new TypeIt("#type1", {
-  speed: 300,
+  speed: 500,
   loop: true,
   waitUntilVisible: true,
 })
-  .type("Developer", { delay: 400 })
+  .type("Software Developer", { delay: 400 })
   .pause(500)
   .delete(9)
   .pause(500)
